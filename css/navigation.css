@@ -1,0 +1,30 @@
+.navigation {
+    list-style: none;
+    padding-left: 0;
+    padding-bottom: 15px;
+    border-bottom: 1px solid green;
+    margin-bottom: 0;
+    
+}
+
+.navigation__item {
+    margin: 10px 0;
+}
+
+.navigation__link {
+color:#032d4e;
+text-decoration: none;
+
+}
+
+.navigation__link:hover {
+    color: blueviolet
+}
+
+.navigation__link:active {
+    color:cadetblue
+}
+
+.navigation__link:visited {
+    color: aquamarine
+}

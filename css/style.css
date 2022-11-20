@@ -1,0 +1,19 @@
+html {
+    box-sizing: border-box;
+
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    color: rgb(108, 136, 219);
+    font-family: lato, sans-serif;
+    margin: 0;
+}
+
+.body--grey {
+    background-color: rgb(73, 117, 123);
+    color:black
+}
