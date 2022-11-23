@@ -1,11 +1,17 @@
-let bodyElement = document.querySelector(".js-body")
-let themeButtonElement = document.querySelector(".js-themeButton")
-let themeNameElement = document.querySelector(".js-themeName")
+{
+    const toggleBackground = () => {
+        const bodyElement = document.querySelector(".js-body")
+        let themeNameElement = document.querySelector(".js-themeName")
+        
+        bodyElement.classList.toggle("body--grey")
+        themeNameElement.innerText = bodyElement.classList.contains("body--grey") ? "jasny motyw" : "ciemny motyw";
+    };
 
+    const init = () => {
 
-themeButtonElement.addEventListener("click", () => {
-    bodyElement.classList.toggle("body--grey")
+        const themeButtonElement = document.querySelector(".js-themeButton")
+        themeButtonElement.addEventListener("click", toggleBackground);
+    }
 
-    themeNameElement.innerText = bodyElement.classList.contains("body--grey") ? "jasny motyw" : "ciemny motyw";
-
-})
+    init();
+}
