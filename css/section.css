@@ -21,12 +21,14 @@
 }
 
 .section__button {
-    background-color: rgb(26, 84, 26);
+    background-color: rgb(67, 105, 67);
     color: rgb(246, 237, 237);
     padding: 20px;
     border: 1px solid black;
+    border-radius: 15px;
     font-size: 16px;
     margin: 15px auto;
+    font-family: kalam, sans-serif;
        
 }
 
